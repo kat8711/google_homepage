@@ -1,0 +1,97 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    text-align: right;
+    color: #6d6d6d;
+}
+li {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f3f3f6;
+    height: 40px;
+    border-top: 1px solid #f3f3f6;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.left {
+    display: inline-block;
+    text-align: left;
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+}
+
+.right {
+    display: inline-block;
+    text-align: right;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+
+.content {
+    width: 600px;
+    margin: 150px auto;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.google {
+    font-size: 85px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    width: 490px;
+    display: block;
+    margin: 25px auto;
+    height: 35px;
+    border-color: #4285F4;
+    border-width: 1px;
+}
+
+button {
+    width: 135px;
+    height: 35px;
+    background-color: #f3f3f6;
+    border: none;
+    margin: 7px 2px;
+    font-size: 14px;
+    color: #767678;
+    border-radius: 3px;
+}
+
+/* font colors */
+
+.letter {
+    margin: -13px;
+    padding: 0px;
+}
+
+.blue {
+    color: #4285F4;
+}
+
+.red {
+    color: #EA4335;
+}
+
+.yellow {
+    color: #FBBC05;
+}
+
+.green {
+    color: #34A853;
+}
