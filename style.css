@@ -3,13 +3,54 @@ body {
 }
 
 .header {
-    text-align: right;
+    position: fixed;
+    top: 7px;
+    right: 10px;
     color: #6d6d6d;
+    padding: 5px;
 }
 li {
     display: inline-block;
     font-size: 12px;
     margin: 0px 10px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    height: 40px;
+    margin: -5px;
+}
+
+.apps {
+    height: 22px;
+    margin: 5px;
+    position: fixed;
+    right: 120px;
+    top: 12px;
+}
+
+.notifications {
+    height: 23px;
+    margin: 5px;
+    position: fixed;
+    right: 70px;
+    top: 12px;
+}
+
+.images {
+    position: fixed;
+    right: 165px;
+    top: 18px;
+}
+
+.gmail {
+    position: fixed;
+    right: 220px;
+    top: 18px;
 }
 
 .footer {
